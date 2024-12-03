@@ -1,10 +1,13 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:views="clr-namespace:PillajoMateop2.Views"
        x:Class="PillajoMateop2.AppShell">
 
     
-    <ShellContent Title="Recarga Telefónica"
-                  ContentTemplate="{DataTemplate views:Pagina1}" />
+    <TabBar>
+        <ShellContent Title="Página 1"
+                      ContentTemplate="{DataTemplate views:Pagina1}" />
+        <ShellContent Title="Página 2"
+                      ContentTemplate="{DataTemplate views:Pagina2}" />
+    </TabBar>
 </Shell>

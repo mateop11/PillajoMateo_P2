@@ -10,7 +10,7 @@
 
               Padding="20" Margin="10">
             
-            <Label Text="Primer Nombre"
+            <Label Text="Mateo "
 
                    Grid.Row="0" Grid.Column="0"
 
@@ -19,7 +19,7 @@
                    VerticalOptions="Center" />
 
             
-            <Label Text="Segundo Nombre"
+            <Label Text="Mikael"
 
                    Grid.Row="0" Grid.Column="1"
 
@@ -28,7 +28,7 @@
                    VerticalOptions="Center" />
 
             
-            <Label Text="Primer Apellido"
+            <Label Text="Pillajo"
 
                    Grid.Row="1" Grid.Column="0"
 
@@ -39,7 +39,7 @@
                    Style="{StaticResource ApellidoStyle}" />
 
             
-            <Label Text="Segundo Apellido"
+            <Label Text="Guijarro"
 
                    Grid.Row="1" Grid.Column="1"
 
